@@ -19,6 +19,6 @@ namespace CvnetClient.Views {
 	public partial class ShiireInputView : Window {
 		public ShiireInputView() {
 			InitializeComponent();
-		}
-	}
+		} 
+    }
 }

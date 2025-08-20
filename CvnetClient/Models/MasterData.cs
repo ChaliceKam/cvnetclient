@@ -41,4 +41,37 @@ namespace CvnetClient.Models {
 		[ObservableProperty]
 		string? saishuuShuuseiSha;
 	}
+	public partial class MasterShohin : ObservableObject
+	{
+        [ObservableProperty]
+        long seqNo;
+        [ObservableProperty]
+        decimal vdateCreate;
+        [ObservableProperty]
+        decimal vdateUpdate;
+		[ObservableProperty]
+		string? productCD; //商品CD
+        [ObservableProperty]
+		string? productName; //商品名
+		[ObservableProperty]
+		string? abbreviation; //略称
+		[ObservableProperty]
+		string? oldCode; //旧コード
+		[ObservableProperty]
+		string? exhibitCD; // 展示会CD
+		[ObservableProperty]
+		string? brandCD; //ブランドCD
+        [ObservableProperty]
+		string? itemCD; //アイテムCD
+		[ObservableProperty]
+		string? seasonCD; //シーズンCD
+		[ObservableProperty]
+		string? materialCD;//素材CD
+		[ObservableProperty]
+		string? designCD; //デザイナーCD
+		[ObservableProperty]
+		string? manufactCD; //メーカーCD
+		[ObservableProperty]
+		string? madeInCD; //原産国CD 
+    }
 }
