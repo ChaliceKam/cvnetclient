@@ -12,7 +12,7 @@ namespace CvnetClient.ViewModels
         [RelayCommand]
         void Init()
         { 
-        
+         //
         }
 
         [ObservableProperty]
